@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from box_measurement_srv/srv/BoxDimensions.srv
+// generated code does not contain a copyright notice
+
+
+module box_measurement_srv {
+  module srv {
+    struct BoxDimensions_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct BoxDimensions_Response {
+      float width;
+
+      float legnth;
+
+      float height;
+    };
+  };
+};
